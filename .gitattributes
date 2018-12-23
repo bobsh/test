@@ -124,3 +124,4 @@
 *.raw filter=lfs diff=lfs merge=lfs -crlf
 *.RAW filter=lfs diff=lfs merge=lfs -crlf
 digtool/build/digtool.* filter=lfs diff=lfs merge=lfs -text
+ls.jpg filter=lfs diff=lfs merge=lfs -crlf
