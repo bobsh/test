@@ -1,7 +1,3 @@
-[lfs "http://localhost:8081/repository/fresnel-data/info/lfs"]
-        access = basic
-        locksverify = false
-
 [lfs]
 	allowincompletepush = false
 	url = "http://localhost:8081/repository/fresnel-data/info/lfs"
@@ -14,3 +10,8 @@
         pruneverifyremotealways = true
         basictransfersonly = false
 	tustransfers = true
+
+[lfs "http://localhost:8081/repository/fresnel-data/info/lfs"]
+        access = basic
+        locksverify = false
+
