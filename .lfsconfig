@@ -1,12 +1,16 @@
+[lfs "http://localhost:8081/repository/fresnel-data/info/lfs"]
+        access = basic
+        locksverify = false
+
 [lfs]
-#    url = "http://localhost:8080/"
-	url = "http://localhost:8081/repository/fresnel-data/info/lfs"
-	pushurl = "http://localhost:8081/repository/fresnel-data/info/lfs"
 	allowincompletepush = false
-	fetchrecentrefsdays = 0
-	fetchrecentremoterefs = false
-	fetchrecentcommitsdays = 1
-	fetchrecentalways = false
-	pruneoffsetdays = 0
-	#pruneremotetocheck = origin
-	#pruneverifyremotealways = true
+	url = "http://localhost:8081/repository/fresnel-data/info/lfs"
+        fetchrecentrefsdays = 0
+        fetchrecentremoterefs = true
+        fetchrecentcommitsdays = 0
+        fetchrecentalways = true
+        pruneoffsetdays = 0
+        pruneremotetocheck = origin
+        pruneverifyremotealways = true
+        basictransfersonly = false
+	tustransfers = true
